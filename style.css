@@ -1,0 +1,150 @@
+.nav-home-btn:hover{
+    border-bottom: 2px solid#0e63f2 ;
+}
+#navbtn-1{
+    background-color: whitesmoke;
+    color: #0e63f2;
+    border-radius: 30px;
+    border: none;
+    padding: 12px;
+
+}
+#navbtn-2{
+    background-color: #0e63f2 ;
+    color:  whitesmoke;
+    border-radius: 30px;
+    border: none;
+    padding: 12px;
+
+}
+
+#navbtn-2:hover{
+    background-color: white;
+    color: #0e63f2;
+}
+
+#img1 {
+    position: absolute;
+    left:  750px;
+    top: 120px  ;
+    z-index: 1;
+}
+
+#listOfService{
+    background-image: url("images/side-imaeg-right.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#steps{
+    background-image: url("images/side-image.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.checked {
+    color: orange;
+  }
+.card-img {
+    position: relative;
+    top: -50px;
+    left: 35%;
+    margin-left: -30px;
+    width: 80px !important;
+    height: 80px;
+}
+
+.card-t {
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+#jumbtronSection{
+    z-index: -1;
+    top: -100;
+}
+.test-btn{
+    border: 1px solid #0e63f2;
+    color: #0e63f2;
+    padding: 12px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 5px;  
+}
+.test-btn:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: #0e63f2;   
+}
+.mySlides {display:none}
+
+.services-text{
+    font-size: larger;
+}
+.main-text-style{
+    color: rgb(48, 52, 100); font-size: 80px;
+}
+.doctor-img{
+    height: 400px;
+}
+.text-style{
+    color: rgb(48, 52, 100);
+    font-size: 60px;
+    font-weight: 700;
+}
+
+@media (min-width:576px) {
+    .services-text{
+        font-size: medium;
+    }
+    .main-text-style{
+        color: rgb(48, 52, 100);
+        font-size: 40px;
+    }
+    .card-width{
+        width: 6rem;
+    }
+}
+
+@media (min-width:320px) {
+    .main-text-style{
+        color: rgb(48, 52, 100);
+        font-size: 40px;
+    }
+    .d-xs{
+        display: none;
+    }
+    .d-btn-xs{
+        display: block;
+    }
+    #navbtn-1{
+        background-color: #0e63f2;
+        color: white;
+        border-radius: 30px;
+        border: none;
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+    .text-style{
+        color: rgb(48, 52, 100);
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .text-style-cons{
+        font-size: 12px;
+    }
+    .text-style-emg{
+        font-size: 20px;
+    }
+    #navbtn-3{
+        background-color: white  ;
+        color:  #0e63f2;
+        border-radius: 30px;
+        border: none;
+        padding: 12px;
+        font-size: 12px;
+    }
+    ::-webkit-input-placeholder{
+        font-size: small;
+    }
+}
